@@ -279,7 +279,8 @@ img {
 /*==================== NAV ====================*/
 .nav {
   max-width: 968px;
-  height: var(--header-height);
+  /* height: var(--header-height); */
+  height: 52px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -394,6 +395,7 @@ img {
 .home__blob {
   width: 200px;
   fill: var(--first-color);
+  margin-right: 1.5rem;
 }
 
 .home__blob-img {
