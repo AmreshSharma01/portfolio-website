@@ -1378,4 +1378,21 @@ img {
     display: flex;
     flex-direction: column;
   } */
+
+  .thankyou__container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .thankyou__link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold; /* Make the text bold */
+    display: block; /* Make it a block-level element */
+    margin: 15px auto; /* Center the link */
+  }
 }
