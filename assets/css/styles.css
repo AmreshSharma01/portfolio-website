@@ -1386,13 +1386,15 @@ img {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .thankyou__link {
     text-decoration: none;
     color: #3498db;
     font-weight: bold; /* Make the text bold */
-    display: block; /* Make it a block-level element */
-    margin: 15px auto; /* Center the link */
+    margin-top: 15px; /* Adjusted margin for the link */
   }
 }
