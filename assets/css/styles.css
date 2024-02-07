@@ -1379,9 +1379,10 @@ img {
     flex-direction: column;
   } */
 
+  /* custom css for thankyou page  */
   .thankyou__container {
-    max-width: 600px;
-    margin: 50px auto;
+    max-width: 100%;
+    margin: 30px 10px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -1391,10 +1392,18 @@ img {
     align-items: center;
   }
 
+  .thankyou__container h2,
+  .thankyou__container p,
+  .thankyou__container .thankyou__link {
+    text-align: center;
+    margin: 1px; /* Remove default margins for better consistency */
+  }
+
   .thankyou__link {
     text-decoration: none;
     color: #3498db;
-    font-weight: bold; /* Make the text bold */
-    margin-top: 15px; /* Adjusted margin for the link */
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
   }
 }
